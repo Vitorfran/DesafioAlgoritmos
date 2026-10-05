@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Desafio {
 
-    //Processamento 
+    // Processamento
 
-    //Metodos
+    // Metodos
 
     public static int Soma(int[] numeros) {
         int soma = 0;
@@ -51,9 +51,9 @@ public class Desafio {
 
         System.out.println("------ Desafio de Algoritmos -----");
         System.out.println("------       EQUIPE 4        -----");
-       
-        //Entrada
-    
+
+        // Entrada
+
         for (int i = 0; i < dados.length; i++) {
             System.out.print("Informe um número: ");
 
@@ -65,8 +65,8 @@ public class Desafio {
                 i--; // Tenta novamente
             }
         }
-        
-        //Saida
+
+        // Saida
         System.out.println("\n------ Resultados -----");
 
         int soma = Soma(dados);
