@@ -3,6 +3,23 @@ package DesafioAlgoritmos;
 import java.util.Scanner;
 
 public class Desafio {
+    
+    /*
+     * int[] dados = { 10, 20, 30, 40, 50 };
+     * 
+     * int soma = 0;
+     * int maior = dados[0];
+     * for (int valor : dados) {
+     * soma += valor;
+     * if (valor > maior) {
+     * maior = valor;
+     * }
+     * }
+     * 
+     * double media = (double) soma / dados.length;
+     * System.out.println("Média: " + media);
+     * System.out.println("Maior valor: " + maior);
+     */
 
     // Processamento
 
@@ -28,22 +45,6 @@ public class Desafio {
     // Teste vitor
     public static void main(String[] args) {
 
-        /*
-         * int[] dados = { 10, 20, 30, 40, 50 };
-         * 
-         * int soma = 0;
-         * int maior = dados[0];
-         * for (int valor : dados) {
-         * soma += valor;
-         * if (valor > maior) {
-         * maior = valor;
-         * }
-         * }
-         * 
-         * double media = (double) soma / dados.length;
-         * System.out.println("Média: " + media);
-         * System.out.println("Maior valor: " + maior);
-         */
 
         Scanner scanner = new Scanner(System.in);
 
