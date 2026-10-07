@@ -3,9 +3,8 @@ package DesafioAlgoritmos;
 import java.util.Scanner;
 
 public class Desafio {
-    
+
     /*
-     * int[] dados = { 10, 20, 30, 40, 50 };
      * 
      * int soma = 0;
      * int maior = dados[0];
@@ -39,16 +38,18 @@ public class Desafio {
             if (numero > maior) {
                 maior = numero;
             }
+
         }
         return maior;
     }
-    // Teste vitor
+    
     public static void main(String[] args) {
 
 
         Scanner scanner = new Scanner(System.in);
 
         int[] dados = new int[5];
+
 
         System.out.println("------ Desafio de Algoritmos -----");
         System.out.println("------       EQUIPE 4        -----");
